@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+footer {
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  position: relative;
+}
