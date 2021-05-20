@@ -15,7 +15,7 @@ h1 {
   margin: auto;
 }
 
-.teclas a {
+.teclas p {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -27,16 +27,16 @@ h1 {
   color: white;
 }
 
-.teclas a:nth-child(1n):hover {
+.teclas p:nth-child(1n):hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px red;
 }
 
-.teclas a:nth-child(2n) {
+.teclas p:nth-child(2n) {
   color: black;
 }
 
-.teclas a:nth-child(2n):hover {
+.teclas p:nth-child(2n):hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px blue;
 }
